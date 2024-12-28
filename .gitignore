@@ -1,0 +1,1 @@
+echo "backups/" >> ~/Desktop/postgres-sales-financing/.gitignore
