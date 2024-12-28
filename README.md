@@ -14,6 +14,9 @@ This project contains the schema, queries, and example scripts for a PostgreSQL 
 - `queries/`: Example queries for interacting with the database.
 - `migrations/`: Scripts for making database changes over time.
 
+## Triggers
+- The `triggers.sql` file contains logic to automatically update the `paid_in_full` status in the `Contracts` table whenever payments are added or updated in the `Payments` table.
+
 ## Usage
 1. Install PostgreSQL on your system.
 2. Run the scripts in the `schema/` folder to create the database schema.
