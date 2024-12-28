@@ -10,5 +10,6 @@ CREATE TABLE Contracts (
     monthly_payment NUMERIC(10, 2) NOT NULL,
     paid_in_full BOOLEAN DEFAULT FALSE,
     delivered_date DATE NULL,
-    contract_date DATE NOT NULL
+    contract_date DATE NOT NULL,
+    UNIQUE (customer_id, vendor_id, reorder_number) -- Prevents duplicate contracts
 );
