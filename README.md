@@ -17,6 +17,10 @@ This project contains the schema, queries, and example scripts for a PostgreSQL 
 ## Triggers
 - The `triggers.sql` file contains logic to automatically update the `paid_in_full` status in the `Contracts` table whenever payments are added or updated in the `Payments` table.
 
+## Queries
+- `insert_test_data.sql`: Inserts sample data into the `Customers`, `Vendors`, and `Contracts` tables for testing.
+- `test_trigger.sql`: Inserts payments into the `Payments` table to test the `paid_in_full` trigger logic and verifies the results.
+
 ## Usage
 1. Install PostgreSQL on your system.
 2. Run the scripts in the `schema/` folder to create the database schema.
