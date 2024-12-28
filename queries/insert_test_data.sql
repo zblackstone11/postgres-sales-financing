@@ -8,4 +8,4 @@ VALUES ('FoodCo');
 
 -- Insert test data into Contracts
 INSERT INTO Contracts (customer_id, vendor_id, reorder_number, amount_paid_to_vendor, contract_cost, installments, first_payment_date, monthly_payment, contract_date)
-VALUES (1, 1, 101, 5000.00, 7000.00, 12, '2024-01-01', 583.33, '2023-12-15');
+VALUES (1, 1, 101, 5000.00, 1750.00, 3, '2024-01-01', 583.33, '2023-12-15');
