@@ -1,3 +1,4 @@
 backups/
 backup.sh
 db_config.env
+workflow_reference.md
